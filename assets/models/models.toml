@@ -1,0 +1,27 @@
+[[models]]
+name = "Hijiri"
+scale = 1
+enablebreathing = true
+billboarding=false
+[models.canvasOffset]
+x = -0.25
+[models.position]
+y = 0
+z = 1
+[models.hitInfo]
+
+[[models]]
+name = "Otoha"
+marker = "Hijiri"
+scale = 1
+enablebreathing = true
+billboarding=false
+[models.canvasOffset]
+x = -0.25
+[models.position]
+y = 0
+[models.hitInfo]
+
+[[global]]
+allowModeSwitch = true
+startupMode = 0
